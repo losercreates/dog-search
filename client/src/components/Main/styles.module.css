@@ -1,0 +1,86 @@
+.main_container {
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar h1 {
+  color: yellow;
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.white_btn {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  background-color: white;
+  border-radius: 20px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.search_container {
+  padding: 3vw;
+  display: grid;
+  place-items: center;
+}
+.inner_search_container {
+  background-color: whitesmoke;
+  display: flex;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 50px;
+  border: 5px solid yellow;
+  border-radius: 30px;
+}
+input {
+  background-color: whitesmoke;
+  border: none;
+  height: 30px;
+  width: 50vw;
+  outline: none;
+  font-size: larger;
+}
+.search_results {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.card {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  margin: 20px;
+  padding: 10px;
+}
+.img_container {
+  display: grid;
+  place-items: center;
+}
+.card img {
+  object-fit: contain;
+  height: 200px;
+}
+.card h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.card p {
+  color: white;
+}
